@@ -1,0 +1,46 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Supporting materials for the article "The LLM-based
+  Approach for System Requirements Formalization: Proof of
+  Concept with ChatGPT 3.5 and GigaChat"
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Sergei
+    family-names: Solovev
+    email: sergey.soloviev@inbox.ru
+    affiliation: Bauman Moscow State Technical University
+repository-artifact: >-
+  https://github.com/solovevserg/llm-based-requirements-formalization
+abstract: >-
+  The paper addresses the possible applications of large
+  language models (LLMs) to automate requirements
+  formalization, a very challenging aspect in the system
+  development life cycle. Requirements formalization is a
+  technique of casting specification to strict formal
+  notation to avoid miscommunication and encourage formal
+  verification, but requires a lot of work. The author
+  explores possible application of text-based neural
+  networks to automate the process and reduce time costs. He
+  compares the result of automated conversion of
+  requirements to different formal notations by two popular
+  LLM-based chat assistants according to five criteria.
+  Despite the modest performance observed in the current
+  experiment, the demonstrated potential of LLM in
+  requirements formalization promises to lead us to highly
+  automated requirements engineering pipelines and more
+  efficient reliable system development process.
+keywords:
+  - requirements formalization
+  - requirements engineering
+  - formal notations
+  - Gherkin
+  - Coq
+  - large language models
+license: MIT
+date-released: '2024-04-02'
